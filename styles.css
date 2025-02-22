@@ -1,0 +1,57 @@
+/* 全局样式 */
+body {
+    font-family: 'New Roma', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* 头部样式 */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #222;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* 作品展示 */
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.work-item img:hover {
+    transform: scale(1.05);
+}
+
+/* 页脚 */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    margin-top: 50px;
+}
